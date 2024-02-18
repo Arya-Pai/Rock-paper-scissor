@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: rgb(56, 2, 2);
+}
+.header{
+    background-color: rgb(247, 202, 179);
+    color: rgb(87, 5, 5);
+    display: flex;
+    flex-direction: column;
+    height: 7vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vw;
+    font-size: larger;
+    margin: 7px 10px;
+}
+.message{
+    font-size: 50px;
+    background:linear-gradient(to right, #f32170, #ff6b08,#cf23cf);
+     -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+
+}
+.hide{
+    display: none;
+}
+.icon{
+    background-color: rgb(200, 255, 0);
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+}
+.icon:hover{
+    background-color: rgb(76, 233, 197);
+    opacity: 50%;
+    cursor: pointer;
+    box-shadow:0 0 5rem rgb(255, 255, 255);
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin: 20px;
+    object-fit: cover;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width: 70px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 40px;
+
+}
+.winCount{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top:7vw;
+    font-size: xx-large;
+    color: rgb(255, 156, 156);
+    font-weight: bolder;
+}
+.win{
+    background:linear-gradient( #8be636, #07a51c,#128103);
+     -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
+.lose{
+    background:linear-gradient( #e63636, #f63d3dd7,#e75252);
+    -webkit-text-fill-color: transparent; 
+   -webkit-background-clip: text;  
+}
